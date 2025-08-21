@@ -7,6 +7,8 @@
 
 Both proxies **forward messages from a single source client to multiple destination clients**, while validating message structure.
 
+Built for Ubuntu 24.04 LTS
+
 ---
 
 ## Table of Contents
