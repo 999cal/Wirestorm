@@ -33,19 +33,26 @@ Both proxies **forward messages from a single source client to multiple destinat
 ## 📂 Repository Structure
 
 ```text
+*Wirestorm*
 .
 ├── wirestorm/      # Part 1 – Basic CTMP relay
 │   ├── src/
 │   │   ├── main.rs
 │   │   └── ctmp.rs
-│   ├── tests.py
+│   ├── python_tests
+│   │   ├── tests.py
+│   │   └── client.py
+│   │   └── buffers.py
 │   └── Cargo.toml
 │
 ├── wirestorm2/     # Part 2 – Extended CTMP with checksum
 │   ├── src/
 │   │   ├── main.rs
 │   │   └── ctmp.rs
-│   ├── tests.py
+│   ├── python_tests
+│   │   ├── tests.py
+│   │   └── client.py
+│   │   └── buffers.py
 │   └── Cargo.toml
 │
 └── README.md
